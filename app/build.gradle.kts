@@ -76,6 +76,9 @@ dependencies {
     implementation ("com.squareup.moshi:moshi-kotlin:1.8.0")
     implementation ("com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:0.9.2")
     implementation ("io.coil-kt:coil-compose:2.1.0")
+    testImplementation ("io.mockk:mockk:1.13.2")
+    testImplementation ("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.4")
+    testImplementation ("junit:junit:4.13.2")
 
 
     testImplementation(libs.junit)
